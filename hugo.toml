@@ -1,9 +1,33 @@
 baseURL = "https://bb.9ba.in/"
 languageCode = "zh-cn"
-title = "酒吧逼逼"
-theme = "ananke"
-defaultContentLanguage = "zh"
+title = "bb.9ba.in"
+theme = "PaperMod"
+
+paginate = 10
+enableRobotsTXT = true
 
 [params]
-  description = "技术 / 工作 / 思考"
+  env = "production"
+  description = "bb.9ba.in 博客"
+  author = "Victor"
+
+  defaultTheme = "auto"   # auto / dark / light
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  disableSpecial1stPost = true
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "👋 Hi"
+    Content = "欢迎来到 bb.9ba.in"
+
+[menu]
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 1
 
