@@ -1,0 +1,28 @@
+# ===== Hugo build output =====
+/public/
+/resources/_gen/
+/.hugo_build.lock
+
+# ===== Hugo local config =====
+/hugo_stats.json
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Node / tooling (if any) =====
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ===== Temporary / cache =====
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ===== Cloudflare =====
+.wrangler/
+
