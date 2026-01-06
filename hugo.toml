@@ -35,6 +35,8 @@ buildExpired = false
   comments = false
 
   mainSections = ["posts"]
+  enableSearch = true
+
 
 [params.homeInfoParams]
   Title = "👋 Hi, 我是 Victor"
@@ -45,11 +47,21 @@ buildExpired = false
 [params.fuseOpts]
   isCaseSensitive = false
   shouldSort = true
-  location = 0
-  distance = 1000
-  threshold = 0.4
+
+  # 模糊匹配灵敏度（0 越严格，1 越宽松）
+  # 0.3 ~ 0.4 是博客搜索的黄金区间
+  threshold = 0.35
+
+  # 至少匹配 2 个字符，避免中文单字噪音
   minMatchCharLength = 2
-  keys = ["title", "permalink", "summary", "content"]
+
+  # 搜索权重：标题最重要，其次摘要，最后正文
+  keys = [
+    { name = "title",   weight = 0.5 },
+    { name = "summary", weight = 0.3 },
+    { name = "content", weight = 0.2 }
+  ]
+
 
 [menu]
   [[menu.main]]
