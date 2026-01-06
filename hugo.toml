@@ -1,13 +1,11 @@
 baseURL = "https://bb.9ba.in/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
-title = "bb.9ba.in"
+title = "酒吧逼逼"
 theme = "PaperMod"
 
 enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
-buildExpired = false
+
 
 [pagination]
   pagerSize = 10
@@ -17,31 +15,24 @@ buildExpired = false
 
 [params]
   env = "production"
-  author = "Victor"
-  description = "bb.9ba.in 的技术、折腾与随笔博客"
-
+  author = "昏鸦"
+  description = "产品、技术、折腾"
   defaultTheme = "auto"
   disableThemeToggle = false
-
   ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   ShowWordCount = false
   ShowRssButtonInSectionTermList = true
-
-  disableSpecial1stPost = true
-  comments = false
-
   mainSections = ["posts"]
-  enableSearch = true
-
+  comments = true
 
 [params.homeInfoParams]
-  Title = "👋 Hi, 我是 Victor"
+  Title = "👋 Hi, 我是 昏鸦"
   Content = """
-这里记录技术、折腾与思考。
+这里记录育儿、产品、技术、折腾与思考。
 """
 
 [params.fuseOpts]
@@ -92,9 +83,3 @@ buildExpired = false
 
 [rss]
   limit = 20
-
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    respectDoNotTrack = true
-    useSessionStorage = false

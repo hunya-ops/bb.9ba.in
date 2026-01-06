@@ -6,4 +6,7 @@ draft: false
 tags: ["Hugo", "Cloudflare"]
 categories: ["博客"]
 summary: "一份稳定、快速、可长期维护的 Hugo 博客部署方案。"
+comments: true
 ---
+
+很好的博客
