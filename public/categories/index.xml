@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on 酒吧逼逼</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on 酒吧逼逼</description>
-    <generator>Hugo</generator>
+    <title>Categories on bb.9ba.in</title>
+    <link>https://bb.9ba.in/categories/</link>
+    <description>Recent content in Categories on bb.9ba.in</description>
+    <generator>Hugo -- 0.154.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 06 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bb.9ba.in/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客</title>
-      <link>http://localhost:1313/categories/%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://bb.9ba.in/categories/%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://bb.9ba.in/categories/%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
   </channel>

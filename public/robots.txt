@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://bb.9ba.in/sitemap.xml
