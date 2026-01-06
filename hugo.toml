@@ -3,7 +3,9 @@ languageCode = "zh-cn"
 title = "bb.9ba.in"
 theme = "PaperMod"
 
-paginate = 10
+[pagination]
+  pagerSize = 10
+
 enableRobotsTXT = true
 
 [params]
