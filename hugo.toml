@@ -1,0 +1,9 @@
+baseURL = "https://bb.9ba.in/"
+languageCode = "zh-cn"
+title = "酒吧逼逼"
+theme = "ananke"
+defaultContentLanguage = "zh"
+
+[params]
+  description = "技术 / 工作 / 思考"
+
